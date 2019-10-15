@@ -1,0 +1,7 @@
+--------------------Github--------------------
+
+01. Clone from Repository: git clone <link-repo>
+02. Status Repository at your local: git Status
+03. Add a file to your local: git add <filename>
+04. Git commit: git commit -m"message"
+05. Push to Repository: git push origin <originname>
