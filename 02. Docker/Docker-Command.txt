@@ -64,3 +64,8 @@
 
 24. Xóa image: docker rm nameimage
 
+25. Start Docker: systemctl start docker
+
+26. Stop Docker: systemctl stop docker
+
+27. Status Docker: systemctl status docker
