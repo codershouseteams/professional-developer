@@ -1,0 +1,22 @@
+---------------Install Java on Linux---------------
+
+01. Install the “Main” repository with apt: sudo apt-get update
+        Note: This “Main” repository is maintained by Canonical, the company that maintains Ubuntu.
+
+02. Install OpenJDK 8: sudo apt-get install openjdk-8-jdk
+
+03. Verify that Java and the Java compiler have been properly installed: java -version or javac -version
+
+04. Install JRE: sudo apt-get install openjdk-8-jre
+
+-------------Set Java Home EnvironmentPermalink-------------
+
+05. To set the variable for your system: echo "JAVA_HOME=$(which java)" | sudo tee -a /etc/environment
+
+06. Reload your system’s environment variables: source /etc/environment
+
+07. Verify the variable was set correctly: echo $JAVA_HOME
+    This should return the path to the Java binary.
+
+
+-------------------------Finish-------------------------
